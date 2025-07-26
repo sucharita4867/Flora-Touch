@@ -10,6 +10,10 @@
       <style>
             @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
       </style>
+      <!-- font icon CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+            integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
       <style>
             /* * {
                   margin: 0;
@@ -24,21 +28,30 @@
 
 <body>
       <header class="bg-[#E554731A]">
-            <nav>
-                  <!-- <h2 class="lato-font">Flora Touch</h2> -->
-                  <!-- <ul>
-                        <li><a href=""></a></li>
-                  </ul> -->
-            </nav>
             <!-- header section -->
-            <section class="flex-col md:flex-row flex w-[80%] mx-auto gap-4 md:gap-10 justify-center items-center">
+            <nav class="flex justify-between w-[80%] mx-auto items-center">
+                  <div>
+                        <!-- <h1 class="md:text-5xl text-2xl font-bold text-[#E55473]">Flora Touch</h1> -->
+                        <img src="./Flower Asset/logo.png" alt="">
+                  </div>
+                  <ul class="flex md:text-lg md:mt-6 text-[#27272799] lato-font gap-8 justify-center items-center">
+                        <li class="hidden sm:inline"><a href="#">Home</a></li>
+                        <li class="hidden sm:inline"><a href="#">shop</a></li>
+                        <li class="hidden sm:inline"><a href="#">About us</a></li>
+                        <li>
+                              <i class="fa-solid fa-cart-shopping"></i><a class="" href="#">Cart($56)</a>
+                        </li>
+                  </ul>
+            </nav>
+            <section
+                  class="flex-col md:flex-row flex w-[80%] mx-auto gap-4 md:gap-10 justify-center items-center md:mt-10 mb-10">
                   <!-- text container -->
                   <div class="md:text-start text-center lato-font md:mt-10 md:w-[80%] mt-5">
                         <h1 class="md:text-7xl text-2xl font-bold text-[#272727]">Let's make beautiful
                               flowers a
                               part of your life.
                         </h1>
-                        <p class="md:text-lg mt-6 text-[#27272799] lato-font">It is a
+                        <p class="md:text-lg md:mt-6 mt-4 text-[#27272799] lato-font">It is a
                               long
                               established fact that a
                               reader
@@ -52,7 +65,7 @@
                               Now</button>
                   </div>
                   <!-- img container -->
-                  <div class="md:mt-4">
+                  <div class="md:mt-4 h-[50%] w-[50%] ">
                         <figure>
                               <img src="./Flower Asset/pngwing 10.png" alt="">
                         </figure>
