@@ -5,6 +5,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Flora Touch</title>
+      <link rel="stylesheet" href="style.css">
       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
       <!-- lato font -->
       <style>
@@ -22,6 +23,16 @@
 
             .lato-font {
                   font-family: "Lato", sans-serif;
+            }
+
+            .bg {
+                  background-image: url(./Rectangle\ 9.png);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+            }
+
+            .email {
+                  /* padding: 40px; */
             }
       </style>
 </head>
@@ -75,7 +86,7 @@
             <!-- Our Featured Flowers -->
             <section class="md:mt-[5rem] mt-[3rem] w-[80%] mx-auto">
                   <h1 class="md:text-4xl text-2xl font-bold text-center text-[#272727]">Our Featured Flowers</h1>
-                  <div class="flex justify-center">
+                  <div class="flex justify-center mt-4">
                         <p class="md:text-lg text-center text-[#27272799] md:w-[60%]">It is a long
                               established fact
                               that a reader will be
@@ -176,10 +187,29 @@
                   </div>
             </section>
             <!-- Get The Latest Deals -->
-            <section class="md:mt-[5rem] mt-[3rem] w-[80%] mx-auto">
-                  <h1 class="md:text-4xl text-2xl font-bold text-center text-[#272727]">Get The Latest Deals</h1>
-                  <p>$30 coupon for first shopping</p>
+            <section class="md:mt-[5rem] mt-[3rem] w-[80%] mx-auto border border-red-700 bg px-[12rem] py-[8rem]">
+                  <div class="border border-purple-950">
+                        <h1 class="md:text-4xl text-2xl font-bold text-center text-[#272727]">Get The Latest Deals</h1>
+                        <p class="md:text-lg text-center text-[#27272799] mt-4">$30 coupon for first shopping</p>
+                        <from class="border border-green-700 pl-4 md:py-4 md:pr-[30rem]">
+                              <input class="" type="email" placeholder="Enter your email here...." name="email" id="">
+                              <!-- <button
+                                    class="bg-[#E55473] px-4 py-2 text-white lato-font text-xl mt-4 rounded-sm">Subscribes</button> -->
+                        </from>
+                  </div>
             </section>
+            <!-- <section
+                  class="bg-join bg-cover bg-center md:h-[36rem] h-[20rem] w-full md:mt-20 mt-10 flex justify-center items-center flex-col">
+                  <h1 class="md:text-6xl text-2xl noto-serif-font text-[#FFFFFF] font-bold md:mb-8 mb-4">Join
+                        the colorful
+                        Bunch
+                  </h1>
+                  <from class="flex">
+                        <input class="inter-font pl-4 md:py-4 md:pr-[34rem]" type="email" placeholder="Write email"
+                              name="email" id="">
+                        <button class="inter-font bg-[#E95A08] text-white px-6 py-2">Subscribe</button>
+                  </from>
+            </section> -->
       </main>
       <footer></footer>
 </body>
